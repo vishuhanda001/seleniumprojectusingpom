@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [test maven builds]" parallel="methods">
+  <test name="Test maven testing(failed)" parallel="methods">
+    <classes>
+      <class name="testProject.LearnMoreTestCase">
+        <methods>
+          <include name="learnMoreTitleTestCase"/>
+          <include name="setup"/>
+          <include name="readMainHeadsTestCase"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testProject.LearnMoreTestCase -->
+    </classes>
+  </test> <!-- Test maven testing(failed) -->
+</suite> <!-- Failed suite [test maven builds] -->
